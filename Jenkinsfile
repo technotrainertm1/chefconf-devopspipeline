@@ -1,7 +1,7 @@
 pipeline {
     agent { label "minion-farm"}
     stages {
-        stage('Update Ubuntu1') {
+        stage('Update Ubuntu') {
             steps {
                 sh 'sudo apt-get update'
             }    
